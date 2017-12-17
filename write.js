@@ -1,6 +1,6 @@
 const magik = magikcraft.io;
 
-function write(char) {
+function write(char = 'a') {
     const font = {
         a:[0,24,36,102,126,126,102,102],
         b:[192,192,192,192,252,194,194,252],
