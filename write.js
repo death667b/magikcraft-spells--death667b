@@ -17,6 +17,7 @@ function write(char = "a") {
             line.toString(2).padStart(8,"0"))
     const a = bina(font[char]);
     
+    const here = magik.hic();
     // a.forEach(line=>
     //     magik.dixit(line)
     // );
