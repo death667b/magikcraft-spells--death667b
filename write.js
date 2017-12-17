@@ -14,6 +14,10 @@ function write() {
     }
 
     function binary(letter) {
-
+        return letter.map(line => line.toString(2));
     }
+
+    const a = binary(font.a);
+    
+    a.forEach(line=>magik.dixit(line));
 }
