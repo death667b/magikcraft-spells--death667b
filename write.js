@@ -1,6 +1,6 @@
 const magik = magikcraft.io;
 
-function write() {
+function write(char) {
     const font = {
         a:[0,24,36,102,126,126,102,102],
         b:[192,192,192,192,252,194,194,252],
@@ -15,7 +15,7 @@ function write() {
 
     const bina = letter => letter.map(line => 
             line.toString(2).padStart(8,"0"))
-    const a = bina(font.i);
+    const a = bina(font[char]);
     
     a.forEach(line=>
         magik.dixit(line)
