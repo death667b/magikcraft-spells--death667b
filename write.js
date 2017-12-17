@@ -18,6 +18,6 @@ function write() {
     const a = bina(font.a);
     
     a.forEach(line=>
-        magik.dixit(line.padString(8,"0"))
+        magik.dixit(line.padStart(8,"0"))
     );
 }
