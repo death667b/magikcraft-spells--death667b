@@ -13,7 +13,7 @@ function write(char = 'a') {
         i:[255,126,24,24,24,24,126,255]
     }
     
-    const STONE = magik.type('Material').SAND
+    const STONE = magik.type('Material').STONE
 
     const number2binary = num => num.toString(2)
     const addLeadingZeros = line => line.padStart(8, "0")
