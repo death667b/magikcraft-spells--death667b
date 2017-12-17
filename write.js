@@ -18,6 +18,12 @@ function write(char = "a") {
     const a = bina(font[char]);
     
     const here = magik.hic();
+
+
+
+
+
+    
     // a.forEach(line=>
     //     magik.dixit(line)
     // );
