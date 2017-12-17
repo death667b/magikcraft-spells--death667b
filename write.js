@@ -13,5 +13,5 @@ function write() {
         i:[255,126,24,24,24,24,126,255]
     }
 
-    
+    const binary = font.a.toString
 }
