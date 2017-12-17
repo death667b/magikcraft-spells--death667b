@@ -1,0 +1,9 @@
+{
+  "name": "death667b_magikcraft_package_json",
+  "version": "0.0.0",
+  "dependencies": {
+    "magikcraft-api": "git+ssh://git@github.com:jwulf/magikcraft-api.git",
+    "mct1": "https://github.com/death667b/mct1.git#develop"
+  },
+  "author": "death667b"
+}
