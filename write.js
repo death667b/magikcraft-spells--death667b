@@ -18,7 +18,9 @@ function write(char = "a") {
     const a = bina(font[char]);
     
     const here = magik.hic();
-
+    const x = here.getX();
+    const y = here.getY();
+    const z = here.getZ();
 
 
 
