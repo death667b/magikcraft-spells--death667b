@@ -13,11 +13,11 @@ function write() {
         i:[255,126,24,24,24,24,126,255]
     }
 
-    const binary = letter => {
-        letter.map(line => 
-        line.toString(2).padString(8,"0"))}
-
-    const a = binary(font.e);
+    const bina = letter => {
+        return letter.map(line => 
+            line.toString(2).padString(8,"0"))
+    }    
+    const a = bina(font.e);
     
     a.forEach(line=>
         magik.dixit(line)
