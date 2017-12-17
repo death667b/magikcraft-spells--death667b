@@ -15,7 +15,7 @@ function write() {
 
     const bina = letter => letter.map(line => 
             line.toString(2).padStart(8,"0"))
-    const a = bina(font.a);
+    const a = bina(font.i);
     
     a.forEach(line=>
         magik.dixit(line)
