@@ -19,5 +19,5 @@ function write() {
 
     const a = binary(font.e);
     
-    a.forEach(line=>magik.dixit(line));
+    a.forEach(line=>magik.dixit(line.padStart("0",8)));
 }
