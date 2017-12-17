@@ -14,7 +14,7 @@ function write() {
     }
 
     const bina = letter => letter.map(line => 
-            line.toString(2) 
+            line.toString(2)) 
     const a = bina(font.e);
     
     a.forEach(line=>
