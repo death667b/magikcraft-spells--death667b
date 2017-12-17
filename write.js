@@ -33,5 +33,5 @@ function write(char = 'a') {
 
     letterMap.forEach((line, linenum) => 
         line.forEach((char, charnum) => (char == "1" &&
-            getBlock(x + charnum, y - linenum, z).setType(SAND))));
+            getBlock(x + charnum, y - linenum, z).setType(STONE))));
 }
