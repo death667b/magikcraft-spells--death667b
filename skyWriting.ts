@@ -11,6 +11,6 @@ const font = {
     h:[102,102,102,126,102,102,102,102],
     i:[255,126,24,24,24,24,126,255]
 }
-function newSpell() {
+function skyWriting() {
 	
 }
